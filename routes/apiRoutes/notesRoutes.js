@@ -9,8 +9,8 @@ router.get('/notes', (req, res) => {
 
 router.post('/notes', (req, res) => {
     req.body.id = notes.length.toString();
-    let note = createNewNote(req.body, notes);
+    const note = createNewNote(req.body, notes);
     res.json(note);
-})
+});
 
 module.exports = router;
