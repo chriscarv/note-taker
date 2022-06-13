@@ -4,11 +4,7 @@
       "title": "enter note title",
       "text": "enter note text",
       "id": "0"
-    },
-    {
-      "title": "second note",
-      "text": "this is the second note",
-      "id": "1"
     }
+  
   ]
 }
